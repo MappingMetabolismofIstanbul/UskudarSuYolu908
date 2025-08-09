@@ -50,8 +50,7 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
-        {
+             {
             id: 'slug-style-id',
             alignment: 'left',
             hidden:false,
@@ -61,6 +60,36 @@ var config = {
             location: {
                 center: [29.011, 41.019],
                 zoom:17,
+                pitch: 0,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: 'sixteen',
+            alignment: 'centered',
+            hidden:false,
+            title: '',
+            image: 'https://i.ibb.co/XZRLtZfk/MEF-AAP-027-BAP-2025-08-09-13-40-02.png',
+            description: '',
+            location: {
+                center: [29.011, 41.019],
+                zoom:14,
                 pitch: 0,
                 bearing: 0
             },
