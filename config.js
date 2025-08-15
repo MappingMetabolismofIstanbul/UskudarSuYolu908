@@ -35,7 +35,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -50,7 +50,8 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-             {
+            },
+         {
             id: 'slug-style-id',
             alignment: 'left',
             hidden:false,
@@ -64,7 +65,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation:false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -94,7 +95,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
