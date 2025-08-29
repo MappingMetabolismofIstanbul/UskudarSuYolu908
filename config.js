@@ -378,7 +378,7 @@ var config = {
              },
               {
             id: 'fourteen-identifier',
-            alignment: 'centered',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/7NtRRTDG/MEF-AAP-027-BAP-2025-08-09-20-33-48.png',
