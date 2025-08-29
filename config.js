@@ -53,7 +53,7 @@ var config = {
             },
          {
             id: 'slug-style-id',
-            alignment: 'left',
+            alignment: 'centered',
             hidden:false,
             title: '',
             image: 'https://i.ibb.co/XZRLtZfk/MEF-AAP-027-BAP-2025-08-09-13-40-02.png',    
